@@ -1,3 +1,9 @@
+## This is a fork
+
+This is a maintained fork of the wonderful `react-native-keep-awake` package to maintain the tvos support in another npm package.
+
+It maintains the tvOS target, but does not play nicely with `react-native link`, which is why it was removed from the main package.
+
 This React Native package allows you to prevent the screen from going to sleep while your app is active. It's useful for things like navigation or video playback, where the user expects the app to remain visible over long periods without touch interaction.
 
 ## Compatible Versions
@@ -9,15 +15,7 @@ This React Native package allows you to prevent the screen from going to sleep w
 As the first step, install this module:
 
 ```
-npm install --save react-native-keep-awake
-```
-
-### RNPM
-
-The plugin can be installed using [react-native link](https://facebook.github.io/react-native/docs/linking-libraries-ios.html) on both iOS and Android. Once installed with npm, just run:
-
-```
-react-native link
+npm install --save react-native-keep-awake-tvos
 ```
 
 ### Manual install
